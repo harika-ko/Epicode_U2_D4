@@ -119,3 +119,51 @@ h1 {
 .button2 {
     background-color: white;
 }
+
+.inner-container3 {
+    font-family: Arial;
+    font-size: 17px;
+    justify-content: center;
+    gap: 9rem;
+}
+
+.img-specifications {
+    background-color: rgb(247, 230, 207);
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    padding: 0.9rem;
+    margin-top: 25px;
+    margin-right: 16px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Reusable Components */
+
+.display-flex {
+    display: flex;
+}
+
+.part-margins {
+    margin-top: 12px;
+}
+
+.gray-color {
+    color: gray
+}
+
+.part-line-ht {
+    line-height: 17pt;
+}
