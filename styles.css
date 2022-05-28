@@ -1,5 +1,6 @@
 body {
     margin: 0;
+    font-family: Arial;
 }
 
 .container {
@@ -137,17 +138,60 @@ h1 {
     margin-right: 16px;
 }
 
+.inner-container4-part1 {
+    flex-direction: column;
+    margin-left: 20rem;
+}
+
+.card-container {
+    background-color: white;
+    border-radius: 15px;
+}
+
+.card-container-2 {
+    flex-flow: column wrap;
+    justify-content: center;
+}
+
+.inner-container4-part1 h3 {
+    margin-top: 5rem;
+    font-size: 1.5rem;
+}
+
+.inner-container4-part1 .graphQL {
+    height: 135px;
+    width: 250px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.wrapper-3 {
+    align-items: center;
+}
+
+.wrapper-3 .avatar-5 {
+    border-radius: 50%;
+    height: 25px;
+    width: 15px;
+    flex-grow: 1;
+}
+
+.fa-star {
+    margin-top: 1.1rem;
+    border-color: gold;
+}
 
 
+.wrapper-3 p {
+    flex-grow: 2;
+}
 
-
-
-
-
-
-
-
-
+.wrapper-3 .bookmark {
+    margin-right: 9px;
+    height: 15px;
+    width: 15px;
+    flex-grow: 1;
+}
 
 
 /* Reusable Components */
@@ -166,4 +210,30 @@ h1 {
 
 .part-line-ht {
     line-height: 17pt;
+}
+
+.gray-bg {
+    background-color: #f6f2f2;
+}
+
+.font-bold {
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.margin-value {
+    margin-left: 15px;
+}
+
+.yellow-color {
+    color: gold;
+}
+
+.linethrough-class {
+    text-decoration: line-through;
+}
+
+.font-thickness {
+    font-weight: 300;
+    font-size: 13px;
 }
