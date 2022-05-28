@@ -226,6 +226,10 @@ h1 {
     padding: 1rem;
 }
 
+.container6 {
+    flex-direction: column;
+}
+
 
 /* Reusable Components */
 
