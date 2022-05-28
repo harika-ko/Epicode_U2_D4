@@ -1,6 +1,7 @@
 body {
     margin: 0;
     font-family: Arial;
+    max-width: 100%;
 }
 
 .container {
@@ -138,9 +139,40 @@ h1 {
     margin-right: 16px;
 }
 
+
+.inner-container4 {
+    justify-content: space-between;
+}
+
+.chevron-left {
+    position: relative;
+    top: 19rem;
+    left: 11rem;
+    border-radius: 50%;
+    background-color: white;
+    width: 18px;
+    height: 18px;
+    padding: 1rem;
+}
+
 .inner-container4-part1 {
     flex-direction: column;
-    margin-left: 20rem;
+    margin-left: 13rem;
+}
+
+.inner-container4-part2 {
+    flex-direction: column;
+    margin-top: 8.1rem;
+}
+
+.inner-container4-part3 {
+    flex-direction: column;
+    margin-top: 8.1rem;
+}
+
+.inner-container4-part4 {
+    flex-direction: column;
+    margin-top: 8.1rem;
 }
 
 .card-container {
@@ -156,13 +188,6 @@ h1 {
 .inner-container4-part1 h3 {
     margin-top: 5rem;
     font-size: 1.5rem;
-}
-
-.inner-container4-part1 .graphQL {
-    height: 135px;
-    width: 250px;
-    border-top-left-radius: 15px;
-    border-top-right-radius: 15px;
 }
 
 .wrapper-3 {
@@ -191,6 +216,17 @@ h1 {
     height: 15px;
     width: 15px;
     flex-grow: 1;
+}
+
+.chevron-right {
+    position: relative;
+    top: 19rem;
+    left: 2rem;
+    border-radius: 50%;
+    background-color: white;
+    width: 18px;
+    height: 18px;
+    padding: 1rem;
 }
 
 
@@ -236,4 +272,22 @@ h1 {
 .font-thickness {
     font-weight: 300;
     font-size: 13px;
+}
+
+.course-specifications {
+    height: 135px;
+    width: 250px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.gap {
+    gap: 23px;
+    background-color: #f6f2f2;
+}
+
+.wrapper-avatar-specifications {
+    border-radius: 50%;
+    height: 25px;
+    width: 25px;
 }
