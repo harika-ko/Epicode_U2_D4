@@ -231,6 +231,24 @@ h1 {
 }
 
 
+.footer {
+    margin-top: 3rem;
+}
+
+.footer p {
+    flex-grow: 1;
+    margin-left: 18rem;
+}
+
+.unolist {
+    list-style-type: none;
+    margin-right: 14rem;
+    gap: 18px;
+}
+
+
+
+
 /* Reusable Components */
 
 .display-flex {
